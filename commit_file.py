@@ -9,6 +9,7 @@ def create_file_commit():
     os.system('git add .')
     commit_msg = 'Create Program ' + file_name[0:2] + ' python file'
     os.system('git commit -am \"' + commit_msg + "\"")
+    print("Commit Msg:", commit_msg)
 
 
 def commit_code_file():
@@ -16,6 +17,7 @@ def commit_code_file():
     function_name = sys.argv[2]
     commit_msg = 'Create function ' + function_name + '()'
     os.system('git commit -am \"' + commit_msg + "\"")
+    print("Commit Msg:", commit_msg)
 
 
 if sys.argv[1] == '1':
