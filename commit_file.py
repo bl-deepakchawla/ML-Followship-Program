@@ -14,11 +14,11 @@ def create_file_commit():
 def commit_code_file():
     os.system('git add .')
     function_name = sys.argv[2]
-    commit_msg = 'Create function ' + function_name
-    os.system('git commit -am ' + commit_msg)
+    commit_msg = 'Create function ' + function_name + '()'
+    os.system('git commit -am \"' + commit_msg + "\"")
 
 
 if sys.argv[1] == '1':
     create_file_commit()
 elif sys.argv[1] == '2':
-    print("commit")
+    commit_code_file()
