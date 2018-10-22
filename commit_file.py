@@ -7,7 +7,7 @@ def create_file_commit():
     file_name = file_name.replace(' ', '\ ')
     os.system('touch ' +  file_name + '.py')
     os.system('git add .')
-    commit_msg = 'Create Program ' + file_name[0] + ' python file'
+    commit_msg = 'Create Program ' + file_name[0:2] + ' python file'
     os.system('git commit -am \"' + commit_msg + "\"")
 
 
