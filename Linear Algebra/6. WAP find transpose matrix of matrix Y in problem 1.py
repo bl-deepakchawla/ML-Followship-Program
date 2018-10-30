@@ -8,4 +8,4 @@ g_mat1 = [[5, 8, 1],
 
 g_resultant_mat = matrix_transpose(g_mat1)
 print("First Matrix is", g_mat1)
-print("Transpose of first matrix is", g_resultant_mat)
+print("Inverse of first matrix is", g_resultant_mat)
