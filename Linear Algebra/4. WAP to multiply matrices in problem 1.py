@@ -18,4 +18,4 @@ g_mat2 = [[5, 8, 1],
 g_resultant_mat = multiply_two_matrix(g_mat1, g_mat2)
 print("First Matrix is", g_mat1)
 print("Second Matrix is", g_mat2)
-print("Sum of both matrix is", g_resultant_mat)
+print("Multiply of both matrix is", g_resultant_mat)
