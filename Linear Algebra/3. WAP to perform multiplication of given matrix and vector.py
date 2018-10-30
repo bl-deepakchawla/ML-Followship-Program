@@ -15,7 +15,7 @@ g_mat1 = [[5, 1, 3],
 
 g_mat2 = [[1, 2, 3]]
 
-g_resultant_mat = add_two_matrix(g_mat1, g_mat2)
+g_resultant_mat = multiply_matrix_with_vector(g_mat1, g_mat2)
 
 print("First Matrix is", g_mat1)
 print("Second Matrix is", g_mat2)
