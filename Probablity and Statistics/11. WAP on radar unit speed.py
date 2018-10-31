@@ -10,4 +10,4 @@ g_variance1 = 10
 g_x1 = 100
 g_z_score1 = pr_radar_unit(g_mean1, g_variance1, g_x1)
 print("Z-score of normal distribution at x < 100 is,", g_z_score1)
-print("Probability of normal distribution at x < 100 is 0.1587")
+print("Probability of normal distribution at x < 0 is 0.1587")
