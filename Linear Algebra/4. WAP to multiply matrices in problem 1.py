@@ -4,7 +4,8 @@ def multiply_two_matrix(l_mat1, l_mat2):
               [0, 0, 0]]
     for value1 in range(0, len(l_mat1)):
         for value2 in range(0, len(l_mat1[0])):
-            l_resultant_mat[value1][value2] = l_mat1[value1][value2] * l_mat2[value1][value2]
+            for value3 in range(0, len(l_mat2)):
+                l_resultant_mat[value1][value2] += l_mat1[value1][value3] * l_mat2[value3][value2]
     return l_resultant_mat
 
 
